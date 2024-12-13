@@ -1,0 +1,10 @@
+[package]
+name = "lib_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqstreams = { git = "https://github.com/Saqib839/Substreams_rust_sdk.git", branch ="reqstreams" }
+tokio = { version = "1", features = ["full"] }
+anyhow = "1"
+serde_json = "1.0"
