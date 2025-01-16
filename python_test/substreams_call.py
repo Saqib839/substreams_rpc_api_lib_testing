@@ -1,6 +1,6 @@
 import ctypes
 from ctypes import c_char_p, c_void_p, c_size_t, POINTER, Structure
-import pb.uniswap.v1.uniswap_pb2 as uniswap_pb2;
+# import pb.uniswap.v1.uniswap_pb2 as uniswap_pb2;
 from module_map import decode_with_module 
 
 # Define the FfiByteArray structure in Python to match the Rust definition
